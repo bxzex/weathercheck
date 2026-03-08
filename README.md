@@ -43,7 +43,7 @@ npm run deploy
 
 ## Credits
 
-Developed by [bxzex](https://github.com/bxzex).
+Developed by [bxzex](https://bxzex.com).
 
 ## License
 

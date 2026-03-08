@@ -208,7 +208,7 @@ export default function App() {
       <footer className="max-w-7xl mx-auto px-6 py-16 border-t border-slate-900/50">
         <div className="flex flex-col items-center">
           <div className="text-[10px] text-slate-600 font-black tracking-[0.4em] uppercase mb-8">
-            developed by <span className="text-indigo-500">bxzex</span>
+            developed by <a href="https://bxzex.com" target="_blank" rel="noopener noreferrer" className="text-indigo-500 hover:text-white transition-all underline decoration-indigo-500/30 underline-offset-8 decoration-2">bxzex</a>
           </div>
           
           <div className="flex gap-10 mb-12">
