@@ -75,9 +75,21 @@ export default function App() {
       {/* Header */}
       <header className="max-w-7xl mx-auto px-6 pt-12 pb-8">
         <div className="flex flex-col md:flex-row md:items-center justify-between gap-8">
-          <div>
-            <h1 className="text-3xl font-extrabold tracking-tight text-white mb-1">Weather</h1>
-            <p className="text-slate-500 text-xs font-bold tracking-[0.2em] uppercase">Global Forecasts</p>
+          <div className="flex items-center gap-6">
+            <div>
+              <h1 className="text-3xl font-extrabold tracking-tight text-white mb-1">Weather</h1>
+              <p className="text-slate-500 text-xs font-bold tracking-[0.2em] uppercase">Global Forecasts</p>
+            </div>
+            
+            <a 
+              href="https://buy.stripe.com/9B6eVfd9E6OC3sr7cEaAw03" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="px-4 py-2 bg-indigo-500/10 hover:bg-indigo-500/20 border border-indigo-500/20 rounded-xl text-[10px] font-black uppercase tracking-widest text-indigo-400 transition-all flex items-center gap-2"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg>
+              Support Project
+            </a>
           </div>
           
           <form onSubmit={handleSearch} className="relative w-full md:w-[350px] group">
