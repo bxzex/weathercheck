@@ -3,11 +3,13 @@
 @tailwind utilities;
 
 :root {
-  color-scheme: dark;
+  color-scheme: light;
 }
 
 body {
   margin: 0;
+  font-family: "PT Sans", "Helvetica Neue", Arial, sans-serif;
+  background: #f3f1ec;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
